@@ -11,10 +11,10 @@ function Hero() {
           customers where they can sell, buy, and explore pre-loved and vintage
           fashion.
         </Text>
-        <ButtonSection>
+        {/* <ButtonSection>
           <Button1>ADMIN DEMO</Button1>
           <Button2>SHOP DEMO</Button2>
-        </ButtonSection>
+        </ButtonSection> */}
       </TextSection>
       <ImageSection>
         <Image src="/hero-image.png" width="600px" height="520px" />
@@ -67,39 +67,39 @@ const Text = styled.p`
   line-height: 1.9rem;
 `;
 
-const ButtonSection = styled.div`
-  margin-top: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
+// const ButtonSection = styled.div`
+//   margin-top: 4rem;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// `;
 
-const Button2 = styled.button`
-  background-color: #fff;
-  border: 1px solid #004c3f;
-  color: #004c3f;
-  cursor: pointer;
-  padding: 1.4rem 2rem;
-  font-size: 1.3rem;
-  font-family: "DM Sans";
-  font-style: normal;
-  letter-spacing: 0.1rem;
-  font-weight: 700;
-  margin-left: 30px;
-`;
+// const Button2 = styled.button`
+//   background-color: #fff;
+//   border: 1px solid #004c3f;
+//   color: #004c3f;
+//   cursor: pointer;
+//   padding: 1.4rem 2rem;
+//   font-size: 1.3rem;
+//   font-family: "DM Sans";
+//   font-style: normal;
+//   letter-spacing: 0.1rem;
+//   font-weight: 700;
+//   margin-left: 30px;
+// `;
 
-const Button1 = styled.button`
-  background-color: #004c3f;
-  border: 1px solid #004c3f;
+// const Button1 = styled.button`
+//   background-color: #004c3f;
+//   border: 1px solid #004c3f;
 
-  color: #fff;
-  cursor: pointer;
-  padding: 1.4rem 2rem;
-  font-size: 1.3rem;
-  font-family: "DM Sans";
-  font-style: normal;
-  letter-spacing: 0.1rem;
-  font-weight: 700;
-`;
+//   color: #fff;
+//   cursor: pointer;
+//   padding: 1.4rem 2rem;
+//   font-size: 1.3rem;
+//   font-family: "DM Sans";
+//   font-style: normal;
+//   letter-spacing: 0.1rem;
+//   font-weight: 700;
+// `;
 
 export default Hero;

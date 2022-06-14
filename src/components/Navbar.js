@@ -4,10 +4,10 @@ function Navbar() {
   return (
     <Nav>
       <NavLogo>push.</NavLogo>
-      <NavButtons>
+      {/* <NavButtons>
         <Button1>Login</Button1>
         <Button2>Start Free</Button2>
-      </NavButtons>
+      </NavButtons> */}
     </Nav>
   );
 }
@@ -32,31 +32,31 @@ const NavLogo = styled.h1`
 
 const NavLinks = styled.div``;
 
-const NavButtons = styled.div``;
+// const NavButtons = styled.div``;
 
-const Button1 = styled.button`
-  border: none;
-  cursor: pointer;
-  padding: 0.5rem 0.75rem;
-  font-size: 1rem;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  background-color: #fff;
-  text-decoration-line: underline;
-`;
+// const Button1 = styled.button`
+//   border: none;
+//   cursor: pointer;
+//   padding: 0.5rem 0.75rem;
+//   font-size: 1rem;
+//   font-family: "DM Sans";
+//   font-style: normal;
+//   font-weight: 500;
+//   background-color: #fff;
+//   text-decoration-line: underline;
+// `;
 
-const Button2 = styled.button`
-  background-color: #154f34;
-  border: none;
-  color: #fff;
-  cursor: pointer;
-  padding: 0.5rem 0.75rem;
-  margin-left: 1rem;
-  font-size: 1rem;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-`;
+// const Button2 = styled.button`
+//   background-color: #154f34;
+//   border: none;
+//   color: #fff;
+//   cursor: pointer;
+//   padding: 0.5rem 0.75rem;
+//   margin-left: 1rem;
+//   font-size: 1rem;
+//   font-family: "DM Sans";
+//   font-style: normal;
+//   font-weight: 500;
+// `;
 
 export default Navbar;

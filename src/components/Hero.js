@@ -30,7 +30,7 @@ const HeroSection = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 5vh;
+  margin-top: 0vh;
 `;
 
 const TextSection = styled.div`

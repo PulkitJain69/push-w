@@ -10,7 +10,7 @@ function Footer() {
       </Button> */}
       {/* <Link href={"https://www.linkedin.com/company/pushindia"}><Button>CONTACT US</Button></Link> */}
       
-      const Example = () => (
+      
       <Link href="https://www.linkedin.com/company/pushindia" passHref={true}>
       <Button>CONTACT US</Button>
       </Link>

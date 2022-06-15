@@ -1,10 +1,19 @@
 import styled from "styled-components";
+import Link from 'next/link';
 
 function Footer() {
   return (
     <Foot>
       <Heading>Coming Soon...</Heading>
-      <Link href={"https://www.linkedin.com/company/pushindia"}><Button>CONTACT US</Button></Link>
+      {/* <Button component={Link} href="https://www.linkedin.com/company/pushindia">
+      CONTACT US
+      </Button> */}
+      {/* <Link href={"https://www.linkedin.com/company/pushindia"}><Button>CONTACT US</Button></Link> */}
+      
+      const Example = () => (
+      <Link href="https://www.linkedin.com/company/pushindia" passHref={true}>
+      <Button>CONTACT US</Button>
+      </Link>
       <FooterText>
         <Text>www.pushindia.in</Text>
 {/* //         <Text>@starkindustry</Text> */}

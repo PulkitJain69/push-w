@@ -7,7 +7,7 @@ function Footer() {
       <Link href="https://www.linkedin.com/company/pushindia"><Button>CONTACT US</Button></Link>
       <FooterText>
         <Text>www.pushindia.in</Text>
-//         <Text>@starkindustry</Text>
+{/* //         <Text>@starkindustry</Text> */}
       </FooterText>
     </Foot>
   );
